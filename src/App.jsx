@@ -1,9 +1,13 @@
 import React from 'react'
-
+import Navbar from './Component/Navbar'
+import Banner from './Component/Banner'
+import About from './Component/About'
 const App = () => {
   return (
     <div>
-      <h1 className='bg-red-400'>React App</h1>
+      <Navbar/>
+      <Banner/>
+      <About/>
     </div>
   )
 }
