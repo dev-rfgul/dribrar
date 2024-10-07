@@ -8,14 +8,7 @@ const Certificates = () => {
     const [filter, setFilter] = useState('featured');
 
     const certificateData = [
-        {
-            image: './images/intro-to-animal-behaviour.png',
-            title: ' Introduction to Animal Behaviour',
-            tags: ['React', 'JavaScript', 'JSX'],
-            category: ['featured', 'web'],
-            githubLink: 'https://courses.edx.org/certificates/b4451dfab9be4b72811117bc68f0a0f4',
-            liveDemoLink: '#',
-        },
+
         {
             image: './images/dairy-product.png',
             title: 'Dairy Production and Management',
@@ -74,92 +67,17 @@ const Certificates = () => {
             liveDemoLink: '#',
         },
         {
-            image: 'images/certificates/wordpress.png',
-            title: 'WordPress Development',
-            tags: ['WordPress', 'CMS', 'Web Development'],
-            category: ['web'],
-            githubLink: '#',
+            image: './images/intro-to-animal-behaviour.png',
+            title: ' Introduction to Animal Behaviour',
+            tags: ['React', 'JavaScript', 'JSX'],
+            category: ['featured', 'web'],
+            githubLink: 'https://courses.edx.org/certificates/b4451dfab9be4b72811117bc68f0a0f4',
             liveDemoLink: '#',
         },
-        {
-            image: 'images/certificates/freelancing.png',
-            title: 'Freelancing',
-            tags: ['Freelancing', 'Business', 'Client Management'],
-            category: ['other'],
-            githubLink: '#',
-            liveDemoLink: '#',
-        },
-        {
-            image: 'images/certificates/acting.jpg',
-            title: 'Best Actor Award',
-            tags: ['Freelancing', 'Business', 'Client Management'],
-            category: ['extracirricular'],
-            githubLink: '#',
-            liveDemoLink: '#',
-        },
-        {
-            image: 'images/certificates/APS.jpg',
-            title: 'APS Certificate',
-            tags: ['Freelancing', 'Business', 'Client Management'],
-            category: ['extracirricular'],
-            githubLink: '#',
-            liveDemoLink: '#',
-        },
-        {
-            image: 'images/certificates/calligraphy.jpg',
-            title: 'Calligraphy Norway',
-            tags: ['Freelancing', 'Business', 'Client Management'],
-            category: ['extracirricular'],
-            githubLink: '#',
-            liveDemoLink: '#',
-        },
-        {
-            image: 'images/certificates/NLFP.jpg',
-            title: 'NLFP',
-            tags: ['Freelancing', 'Business', 'Client Management'],
-            category: ['extracirricular'],
-            githubLink: '#',
-            liveDemoLink: '#',
-        },
-        {
-            image: 'images/certificates/IKSC.jpg',
-            title: 'IKSC',
-            tags: ['Freelancing', 'Business', 'Client Management'],
-            category: ['extracirricular'],
-            githubLink: '#',
-            liveDemoLink: '#',
-        },
-        {
-            image: 'images/certificates/essay.jpg',
-            title: 'Essay Writing',
-            tags: ['Freelancing', 'Business', 'Client Management'],
-            category: ['extracirricular'],
-            githubLink: '#',
-            liveDemoLink: '#',
-        },
-        {
-            image: 'images/certificates/painting.jpg',
-            title: 'Painting',
-            tags: ['Freelancing', 'Business', 'Client Management'],
-            category: ['extracirricular'],
-            githubLink: '#',
-            liveDemoLink: '#',
-        },
-
-
-
-
-
-
     ];
     const btns = [
         { label: 'Featured', value: 'featured' },
-        { label: 'Web', value: 'web' },
-        { label: 'SQL', value: 'sql' },
-        { label: 'OS', value: 'OS' },
-        { label: 'Other', value: 'other' },
         { label: 'All', value: 'All' },
-        { label: 'Extra Cirricular', value: 'extracirricular' },
     ]
 
     const filterCertificates = (category) => {
@@ -172,7 +90,7 @@ const Certificates = () => {
 
     return (
         <div id='certificates' className="p-6">
-        <Heading heading={"Certifications"} subHeading={"certifications I Had"}/>
+            <Heading heading={"Certifications"} subHeading={"certifications I Had"} />
             <div className="flex flex-wrap justify-center gap-4 mb-8">
                 {btns.map((btn) => (
                     <button

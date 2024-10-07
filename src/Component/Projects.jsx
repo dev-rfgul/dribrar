@@ -9,7 +9,7 @@ const Projects = () => {
 
     const projectData = [
         {
-            image: 'https://dribrar.netlify.app/images/project1.webp',
+            image: './images/services/doctor.png',
             title: 'Doctor',
             paragraph:'Medical Team Member of Chicken Fans .',
             category: 'Course',
@@ -17,7 +17,7 @@ const Projects = () => {
             liveDemoLink: 'https://github.com/dev-rfgul/shopping-cart-OOP',
         },
         {
-            image: 'https://dribrar.netlify.app/images/animal%20nutrition%20(1).jpeg',
+            image: './images/services/food-nutritionist.png',
             title: 'Food Nutritionist',
             paragraph:'Food Nutritionist at Pets Food Safety',
             category: 'Course',
@@ -25,7 +25,7 @@ const Projects = () => {
             liveDemoLink: 'https://github.com/dev-rfgul/shopping-cart-OOP',
         },
         {
-            image: 'https://dribrar.netlify.app/images/3-In%20Experimental%20unit%20with%20dogs%20(1).jpg',
+            image: './images/services/blogger.png',
             title: 'Blogger',
             paragraph:'I can write Articles,Instructions and Blogs on Pets, Animal Food and Animal Saftey .',
             category: 'Course',
@@ -40,7 +40,6 @@ const Projects = () => {
     return (
         <div id='projects' className="p-4">
             <Heading heading={"Projects"} subHeading={"projects I made "} />
- 
             <div className="flex flex-wrap justify-center gap-6">
                 {projectData.map((project, index) => (
                     <Card
