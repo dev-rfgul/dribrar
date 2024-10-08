@@ -10,24 +10,21 @@ const Projects = () => {
             title: 'Doctor',
             paragraph:'Medical Team Member of Chicken Fans .',
             category: 'Course',
-            githubLink: 'https://github.com/dev-rfgul/shopping-cart-OOP',
-            liveDemoLink: 'https://github.com/dev-rfgul/shopping-cart-OOP',
+            githubLink: 'https://www.chickenfans.com/about-us/',
         },
         {
             image: './images/projects/food-nutritionist.png',
             title: 'Food Nutritionist',
             paragraph:'Food Nutritionist at Pets Food Safety',
             category: 'Course',
-            githubLink: 'https://github.com/dev-rfgul/shopping-cart-OOP',
-            liveDemoLink: 'https://github.com/dev-rfgul/shopping-cart-OOP',
+            githubLink: 'https://petsfoodsafety.com/author/ibrarahmed/',
         },
         {
             image: './images/projects/blogger.png',
             title: 'Blogger',
             paragraph:'I can write Articles,Instructions and Blogs on Pets, Animal Food and Animal Saftey .',
             category: 'Course',
-            githubLink: 'https://github.com/dev-rfgul/shopping-cart-OOP',
-            liveDemoLink: 'https://github.com/dev-rfgul/shopping-cart-OOP',
+            githubLink: 'https://dogfoodspecialist.com/about-us/',
         },
     ]
 
@@ -45,8 +42,8 @@ const Projects = () => {
                         image={project.image}
                         title={project.title}
                         paragraph={project.paragraph}
-                        btnText='GitHub'
-                        btn2Text='Live Demo'
+                        btnText='View'
+                        btn2Text={false}
                         btn1Url={project.githubLink}
                         btn2Url={project.liveDemoLink}
                     />

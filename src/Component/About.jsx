@@ -17,7 +17,6 @@ const AboutMe = () => {
                 </div>
                 <div className="w-full md:w-7/10 lg:w-2/4 flex flex-col gap-6 md:gap-8 lg:gap-12 relative md:-ml-6 lg:-ml-12">
                     <div className="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-12">
-
                         <div className="flex flex-col items-center p-6 bg-white rounded-3xl shadow-lg border border-black border-opacity-60 w-full md:w-1/2">
                             <div className="text-3xl md:text-4xl mb-4 text-blue-600">👥</div>
                             <h2 className="text-xl md:text-2xl font-bold text-gray-800">Education</h2>
@@ -33,9 +32,7 @@ const AboutMe = () => {
                             <p className="text-gray-500 font-bold">OMAKASE AST PTE LTD</p>
                             <p className="text-gray-700 text-base md:text-lg mt-2">Medical Reviewer</p>
                             <p className="text-gray-500 font-bold">Chicken Fans</p>
-                            
                         </div>
-
                     </div>
                     <div className="text-justify  text-gray-700 max-w-3xl ">
                         <p className="   md:text-lg leading-relaxed">

@@ -2,18 +2,15 @@ import React, { useState } from 'react';
 import Card from './Card';
 import Heading from './Heading'
 
-const Projects = () => {
+const Services = () => {
     const projectData = [
-
-
-
         {
             image: './images/services/vet-articles.png',
             title: 'Veterinary Articles',
             tags: [],
             paragraph: 'I write blogs, articles, website content, instructions, description of products considering SEO optimization, scientific research along with citations.',
             category: ['Backend', ''],
-            githubLink: '',
+            githubLink: 'https://www.fiverr.com/vetsoft/seo-optimized-dogs-and-pet-articles?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=nvnner',
             liveDemoLink: '',
         },
         {
@@ -22,8 +19,8 @@ const Projects = () => {
             tags: [],
             paragraph: '"World is going for balanced diet rather than treating diseases which reduced animal performance.',
             category: ['Backend', ''],
-            githubLink: '',
-            liveDemoLink: '',
+            githubLink: 'https://www.fiverr.com/vetsoft/formulate-least-cost-feed-for-dogs?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=zlmmoy',
+
         },
         {
             image: './images/services/blogger.png',
@@ -31,8 +28,8 @@ const Projects = () => {
             tags: [],
             paragraph: 'I can write Articles,Instructions and Blogs on Pets, Animal Food and Animal Saftey along with Scientific Research and Citaitons, and will try my level best to satisfy you with my services.',
             category: ['Backend', ''],
-            githubLink: '',
-            liveDemoLink: '',
+            githubLink: 'https://www.fiverr.com/vetsoft/seo-optimized-dogs-and-pet-articles?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=nvnner',
+
         },
     ];
 
@@ -45,16 +42,14 @@ const Projects = () => {
             <div className="flex flex-wrap justify-center gap-6">
                 {projectData.map((project, index) => (
                     <Card
-                        className="border border-black border-opacity-60"
                         key={index}
                         image={project.image}
                         title={project.title}
-                        tags={project.tags}
                         paragraph={project.paragraph}
-                        btnText='GitHub'
-                        btn2Text='Live Demo'
+                        tags={project.tags}
+                        btnText={'Hire ME'}
+                        btn2Text={false}
                         btn1Url={project.githubLink}
-                        btn2Url={project.liveDemoLink}
                     />
                 ))}
             </div>
@@ -63,4 +58,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default Services;
