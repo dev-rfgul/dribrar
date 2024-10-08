@@ -1,5 +1,5 @@
 
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaWhatsapp, FaLinkedin } from 'react-icons/fa';
 import React from "react";
 import ShinyButton from '@/components/magicui/shiny-button';
 
@@ -23,23 +23,23 @@ const Banner = () => {
                             DVM (IUB) | MPhil (UVAS) | PhD in Animal Nutrition (Selcuk University, Turkey)
                         </h3>
                     </div>
-    
+
                     {/* CV Button */}
                     <div className="flex justify-center md:justify-start mb-6">
                         <ShinyButton text='Download CV' />
                     </div>
-    
+
                     {/* Social Icons */}
                     <div className="flex justify-center md:justify-start space-x-6">
-                        <a href="https://github.com/dev-rfgul" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 hover:scale-110 transition-transform duration-300 ease-in-out">
-                            <FaGithub size={35} />
+                        <a href="https://wa.me/+905466677341"target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-green-600 hover:scale-110 transition-transform duration-300 ease-in-out">
+                            <FaWhatsapp size={35} />
                         </a>
-                        <a href="https://www.linkedin.com/in/rf-gul" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-transform duration-300 ease-in-out">
+                        <a href="https://www.linkedin.com/in/rao-ibrar-ahmed-phd-10291b106/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-transform duration-300 ease-in-out">
                             <FaLinkedin size={35} />
                         </a>
                     </div>
                 </div>
-    
+
                 {/* Image Section */}
                 <div className="md:w-1/2 flex justify-center items-center">
                     <div className="flex-shrink-0 w-64 h-64 md:w-64 md:h-64 lg:w-80 lg:h-80 border border-gray-300 shadow-lg rounded-full overflow-hidden transform transition-all duration-500 hover:scale-105">
@@ -53,7 +53,7 @@ const Banner = () => {
             </div>
         </div>
     );
-    
+
 };
 
 export default Banner;
