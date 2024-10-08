@@ -6,7 +6,7 @@ const Projects = () => {
 
     const projectData = [
         {
-            image: './images/services/doctor.png',
+            image: './images/projects/doctor.png',
             title: 'Doctor',
             paragraph:'Medical Team Member of Chicken Fans .',
             category: 'Course',
@@ -14,7 +14,7 @@ const Projects = () => {
             liveDemoLink: 'https://github.com/dev-rfgul/shopping-cart-OOP',
         },
         {
-            image: './images/services/food-nutritionist.png',
+            image: './images/projects/food-nutritionist.png',
             title: 'Food Nutritionist',
             paragraph:'Food Nutritionist at Pets Food Safety',
             category: 'Course',
@@ -22,7 +22,7 @@ const Projects = () => {
             liveDemoLink: 'https://github.com/dev-rfgul/shopping-cart-OOP',
         },
         {
-            image: './images/services/blogger.png',
+            image: './images/projects/blogger.png',
             title: 'Blogger',
             paragraph:'I can write Articles,Instructions and Blogs on Pets, Animal Food and Animal Saftey .',
             category: 'Course',

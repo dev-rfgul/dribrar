@@ -8,7 +8,7 @@ const Projects = () => {
 
 
         {
-            image: './images/projects/vet-articles.png',
+            image: './images/services/vet-articles.png',
             title: 'Veterinary Articles',
             tags: [],
             paragraph: 'I write blogs, articles, website content, instructions, description of products considering SEO optimization, scientific research along with citations.',
@@ -17,7 +17,7 @@ const Projects = () => {
             liveDemoLink: '',
         },
         {
-            image: './images/projects/animal-food.png',
+            image: './images/services/animal-food.png',
             title: 'Formulated Animal Food',
             tags: [],
             paragraph: '"World is going for balanced diet rather than treating diseases which reduced animal performance.',
@@ -26,7 +26,7 @@ const Projects = () => {
             liveDemoLink: '',
         },
         {
-            image: 'https://dribrar.netlify.app/images/project1.webp',
+            image: './images/services/blogger.png',
             title: 'Blogger',
             tags: [],
             paragraph: 'I can write Articles,Instructions and Blogs on Pets, Animal Food and Animal Saftey along with Scientific Research and Citaitons, and will try my level best to satisfy you with my services.',
