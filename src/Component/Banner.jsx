@@ -5,47 +5,55 @@ import ShinyButton from '@/components/magicui/shiny-button';
 
 const Banner = () => {
     return (
-        <div id='home' className="p-5 md:p-10 lg:mt-20  md:mt-18 mt-4  rounded-lg shadow-xl bg-white">
+        <div id='home' className="p-6 md:p-10 lg:mt-20 md:mt-18 mt-6 rounded-lg shadow-2xl bg-gradient-to-r from-white via-gray-100 to-gray-50">
             <div className="flex flex-col md:flex-row items-center">
-                <div className="md:w-1/2 text-black mb-3 md:mb-0 md:pr-8 flex flex-col items-center justify-center">
-                    <div className="text-center md:text-left lg:mb-8 md:mb-4 flex flex-col items-center">
-                        <h1 className="text-lg text-gray-700 mb-2 transition-transform duration-500 ease-in-out transform hover:scale-105 hover:text-black">
+                {/* Text Section */}
+                <div className="md:w-1/2 text-gray-900 mb-6 md:mb-0 md:pr-10 flex flex-col items-center justify-center">
+                    <div className="text-center md:text-left lg:mb-10 md:mb-6 flex flex-col items-center">
+                        <h1 className="text-lg text-gray-600 mb-3 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:text-gray-900">
                             Hello, I'm
                         </h1>
-                        <h1 className="text-4xl md:text-5xl font-semibold mb-2 transition-transform duration-500 ease-in-out transform hover:scale-105 hover:text-gray-700">
-                            Dr Ibrar 
+                        <h1 className="text-4xl md:text-5xl font-bold mb-3 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:text-gray-800">
+                            Dr. Ibrar
                         </h1>
-                        <h1 className="text-xl md:text-2xl text-gray-600 mb-4 transition-transform duration-500 ease-in-out transform hover:scale-105 hover:text-black">
-                        Animal Nutrituion | Nutrituional Disease
-                        </h1>
+                        <h2 className="text-xl md:text-2xl text-gray-500 mb-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:text-gray-900">
+                            Pet/Animal Nutrition | 🐕🐈🐄🐎🐑🐐🐃🐟🐥
+                        </h2>
+                        <h3 className="text-lg md:text-xl text-gray-500 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:text-gray-900">
+                            DVM (IUB) | MPhil (UVAS) | PhD in Animal Nutrition (Selcuk University, Turkey)
+                        </h3>
                     </div>
-                    <div className="flex justify-center md:justify-start mb-4">
+    
+                    {/* CV Button */}
+                    <div className="flex justify-center md:justify-start mb-6">
                         <ShinyButton text='Download CV' />
                     </div>
-
-                    {/* Icons Section */}
+    
+                    {/* Social Icons */}
                     <div className="flex justify-center md:justify-start space-x-6">
-                        <a href="https://github.com/dev-rfgul" target="_blank" rel="noopener noreferrer" className="text-black hover:text-gray-800 hover:scale-110 transition-colors duration-300">
+                        <a href="https://github.com/dev-rfgul" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 hover:scale-110 transition-transform duration-300 ease-in-out">
                             <FaGithub size={35} />
                         </a>
-                        <a href="https://www.linkedin.com/in/rf-gul" target="_blank" rel="noopener noreferrer" className="text-black hover:scale-110 hover:text-blue-600 transition-colors duration-300">
+                        <a href="https://www.linkedin.com/in/rf-gul" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-blue-600 hover:scale-110 transition-transform duration-300 ease-in-out">
                             <FaLinkedin size={35} />
                         </a>
                     </div>
                 </div>
-
+    
+                {/* Image Section */}
                 <div className="md:w-1/2 flex justify-center items-center">
-                    <div className="flex-shrink-0 w-64 h-64  md:w-64 md:h-64 lg:w-80 lg:h-80 border border-black border-opacity-30 rounded-full overflow-hidden">
+                    <div className="flex-shrink-0 w-64 h-64 md:w-64 md:h-64 lg:w-80 lg:h-80 border border-gray-300 shadow-lg rounded-full overflow-hidden transform transition-all duration-500 hover:scale-105">
                         <img
                             src="https://dribrar.netlify.app/images/ibrar's%20img.png"
-                            alt="rf gul "
-                            className="object-cover w-full h-full object-top rounded-full"
+                            alt="Dr. Ibrar"
+                            className="object-cover w-full h-full object-top"
                         />
                     </div>
                 </div>
             </div>
         </div>
     );
+    
 };
 
 export default Banner;
