@@ -1,6 +1,3 @@
-
-
-
 import React, { useState } from 'react';
 import Card from './Card';
 import Heading from './Heading'
@@ -11,7 +8,7 @@ const Projects = () => {
 
 
         {
-            image: 'https://dribrar.netlify.app/images/project1.webp',
+            image: './images/projects/vet-articles.png',
             title: 'Veterinary Articles',
             tags: [],
             paragraph: 'I write blogs, articles, website content, instructions, description of products considering SEO optimization, scientific research along with citations.',
@@ -19,9 +16,8 @@ const Projects = () => {
             githubLink: '',
             liveDemoLink: '',
         },
-
         {
-            image: 'https://dribrar.netlify.app/images/project1.webp',
+            image: './images/projects/animal-food.png',
             title: 'Formulated Animal Food',
             tags: [],
             paragraph: '"World is going for balanced diet rather than treating diseases which reduced animal performance.',
@@ -29,7 +25,6 @@ const Projects = () => {
             githubLink: '',
             liveDemoLink: '',
         },
-
         {
             image: 'https://dribrar.netlify.app/images/project1.webp',
             title: 'Blogger',
@@ -39,8 +34,6 @@ const Projects = () => {
             githubLink: '',
             liveDemoLink: '',
         },
-
-
     ];
 
 
