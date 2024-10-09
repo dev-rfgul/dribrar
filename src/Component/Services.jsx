@@ -3,7 +3,7 @@ import Card from './Card';
 import Heading from './Heading'
 
 const Services = () => {
-    const projectData = [
+    const serviceData = [
         {
             image: './images/services/vet-articles.png',
             title: 'Veterinary Articles',
@@ -40,16 +40,16 @@ const Services = () => {
         <div id='projects' className="p-4">
             <Heading heading={"Services"} subHeading={"services I offer "} />
             <div className="flex flex-wrap justify-center gap-6">
-                {projectData.map((project, index) => (
+                {serviceData.map((service, index) => (
                     <Card
                         key={index}
-                        image={project.image}
-                        title={project.title}
-                        paragraph={project.paragraph}
-                        tags={project.tags}
+                        image={service.image}
+                        title={service.title}
+                        paragraph={service.paragraph}
+                        tags={service.tags}
                         btnText={'Hire ME'}
                         btn2Text={false}
-                        btn1Url={project.githubLink}
+                        btn1Url={service.githubLink}
                     />
                 ))}
             </div>
