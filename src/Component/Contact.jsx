@@ -26,7 +26,7 @@ const Contact = () => {
         whatsapp: '#25d366',
         blogger: '#FF5722',
         researchgate: '#00CCBB',
-        googleScholar: '#4285F4',
+        googleScholar: '#3367D6',
 
     };
 
@@ -71,7 +71,7 @@ const Contact = () => {
                 </a>
                 {/* Google Scholar */}
                 <a href="https://scholar.google.com/citations?user=6XfTQc8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faGoogle} className="text-3xl sm:text-4xl md:text-5xl hover:scale-110 transition-transform" style={{ color: iconColor.googleScholar }} />
+                    <FontAwesomeIcon icon={faGoogleScholar} className="text-3xl sm:text-4xl md:text-5xl hover:scale-110 transition-transform" style={{ color: iconColor.googleScholar }} />
                 </a>
                 {/* Blogger */}
                 <a href="https://all-about-dogs-2024.blogspot.com/" target="_blank" rel="noopener noreferrer">
@@ -81,6 +81,7 @@ const Contact = () => {
                 <a href="https://www.researchgate.net/profile/Ibrar-Ahmed-2?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InByb2ZpbGUiLCJwYWdlIjoicHJvZmlsZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faResearchgate} className="text-3xl sm:text-4xl md:text-5xl hover:scale-110 transition-transform" style={{ color: iconColor.researchgate }} />
                 </a>
+
             </div>
 
             <p className="text-sm text-gray-500 mt-6 md:mt-12">© 2024 Dev RF-GUL. All rights reserved.</p>
