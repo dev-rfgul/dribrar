@@ -55,7 +55,7 @@ const Contact = () => {
             <div className="flex flex-wrap justify-center gap-6 mb-6">
                 {/* LinkedIn */}
                 <a href="https://www.linkedin.com/in/rao-ibrar-ahmed-phd-10291b106/" target="_blank" rel="noopener noreferrer">
-                    <FaLinkedin className="text-3xl sm:text-4xl md:text-5xl hover:scale-110 transition-transform" style={{ color: iconColor.linkedin }} />
+                    <FaLinkedin className="text-3xl sm:text-4xl md:text-5xl hover:scale-110 transition-transform " style={{ color: iconColor.linkedin }}  />
                 </a>
                 {/* Facebook */}
                 <a href="https://www.facebook.com/raoibrarahmed" target="_blank" rel="noopener noreferrer">

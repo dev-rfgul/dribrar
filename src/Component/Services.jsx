@@ -24,7 +24,7 @@ const Services = () => {
         },
         {
             image: './images/services/blogger.png',
-            title: 'Blogger',
+            title: 'Reviewer and Fact Checker',
             tags: [],
             paragraph: 'I can write Articles,Instructions and Blogs on Pets, Animal Food and Animal Saftey along with Scientific Research and Citaitons, and will try my level best to satisfy you with my services.',
             category: ['Backend', ''],

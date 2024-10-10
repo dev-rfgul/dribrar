@@ -24,7 +24,7 @@ const Projects = () => {
             title: 'Blogger',
             paragraph:'I can write Articles,Instructions and Blogs on Pets, Animal Food and Animal Saftey .',
             category: 'Course',
-            githubLink: 'https://dogfoodspecialist.com/about-us/',
+            githubLink: 'https://www.grittypetco.ca/pages/about-us',
         },
     ]
 
