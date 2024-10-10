@@ -26,7 +26,7 @@ const Services = () => {
             image: './images/services/blogger.png',
             title: 'Reviewer and Fact Checker',
             tags: [],
-            paragraph: 'I can write Articles,Instructions and Blogs on Pets, Animal Food and Animal Saftey along with Scientific Research and Citaitons, and will try my level best to satisfy you with my services.',
+            paragraph: 'I can write Articles,Instructions and Blogs on Pets, Animal Food and Animal Saftey along with Scientific Research and Citaitons, and will try my level best to satisfy you with my services.q',
             category: ['Backend', ''],
             githubLink: 'https://www.fiverr.com/vetsoft/vet-review-fact-check-your-blogs?utm_campaign=gigs_show&utm_medium=shared&utm_source=copy_link&utm_term=klb5ybn',
 

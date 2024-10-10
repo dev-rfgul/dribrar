@@ -6,48 +6,78 @@ import React, { useState, useEffect } from "react";
 
 const reviews = [
     {
-        img: "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/ef6569d7310de760947e79076d70b362-1683257701707069725.601038/F61D85BA-0D42-4130-A99A-C07DF6C0CDE2",
-        name: "Barkwell_pet",
-        title: "United States",
-        body: "I worked with Dr. Ahmed to peer review a set of formulations for pet functional treats created by another vet. His timeline was on time, his summary and feedback were extremely detailed, thorough and data based. Will work with Dr. Ahmed again."
+        img: "https://randomuser.me/api/portraits/men/12.jpg",
+        name: "tentolini",
+        title: "🇮🇹 Italy",
+        body: "What can I say? This article is also stunning, very thorough and well argued. I found out a lot of things I didn't know, definitely worth considering on these veterinary topics."
     },
     {
-        img: "https://avatar.vercel.sh/jill",
-        name: "Mengster",
-        title: "Singapore",
-        body: "I had a very good experience working with Dr Ibrar on a custom order. He took the time to understand my requirements before sharing his thoughts and then committing to the work. I really appreciate his expertise on the poultry topic and would definitely work with him again in the near future."
+        img: "https://randomuser.me/api/portraits/men/13.jpg",
+        name: "ivkojad",
+        title: "🇷🇸 Serbia",
+        body: "Very honest, fast and efficient. He helped me with my project and gave an expert opinion as a veterinarian. Every question I asked him he answered in detail. My recommendations."
     },
     {
-        img: "https://randomuser.me/api/portraits/men/2.jpg",
-        name: "Serenalou",
-        title: "United States",
-        body: "The work is very good and professional. Very good communication."
-    },
-
-
-    {
-        img: "https://randomuser.me/api/portraits/women/3.jpg",
-        name: "giuseppeviola",
-        title: "United States",
-        body: "I recently hired Dr. Ibrar Ahmed on Fiverr to formulate a custom pet food recipe, and the experience exceeded my expectations. Dr. Ahmed was knowledgeable, attentive, and very responsive. He took the time to understand my pet's specific dietary needs and preferences, providing a detailed recipe that included all the necessary nutrients. The turnaround time was quick, and he was open to any adjustments I needed. My pet loves the new food, and I feel confident knowing it's a healthy choice. Highly recommend Dr. Ibrar Ahmed for any pet food formulation needs! Five stars!"
-    },
-    {
-        img: "https://randomuser.me/api/portraits/women/2.jpg",
+        img: "https://randomuser.me/api/portraits/men/14.jpg",
         name: "grittytradeco",
-        title: "Canada",
-        body: "Thank you as always :)."
+        title: "🇨🇦 Canada",
+        body: "Thank you for all your work and collaboration so far. Looking forward to working with you more in the future."
+    },
+
+
+    {
+        img: "https://randomuser.me/api/portraits/men/15.jpg",
+        name: "drasadali10",
+        title: "🇬🇧 United Kingdom",
+        body: "Excellent experience again with Ibrar. He always is so helpful and does his job beyond expectation. Such a professional work. Thank you so much. Fully recommended. Hope to have your services again."
     },
     {
-        img: "https://randomuser.me/api/portraits/men/4.jpg",
-        name: "Seasonal 2018",
-        title: "United States",
-        body: "I could not ask more. Certainly knows his stuff and was super quick and thorough. Highly impartial (which is great) and asked so many questions for my needs. Fantastic."
+        img: "https://randomuser.me/api/portraits/men/16.jpg",
+        name: "luispuno",
+        title: "🇵🇭 Philippines",
+        body: "Doctor Ahmad accommodated all my requests and was very easy to talk to. He was knowledgeable and showed this in adjustments in recipes based on ingredients in my country. Thank you Doctor! I'm so happy! "
+    },
+    {
+        img: "https://randomuser.me/api/portraits/men/17.jpg",
+        name: "shahidmubass932",
+        title: "🇪🇪 Estonia",
+        body: "Thank you so much Vetsoft. Literally speaking your article proved a lifesaver for me. The article is well informative and coherent to read. It's the value of money as well. Suggested, recommended, and endorsed everything you get from me."
     },
     {
         img: "https://randomuser.me/api/portraits/men/5.jpg",
-        name: "giuseppeviola",
-        title: "United States",
-        body: "This seller truly goes above and beyond! I cannot praise them enough for their dedication to crafting the perfect pet meal. From the moment I reached out with my concerns and preferences, they took the time to understand my pet's needs and carefully curated a meal plan that exceeded all expectations. Their attention to detail and commitment to quality are unmatched. Highly recommend his work! "
+        name: "altaf19n",
+        title: "🇰🇼 Kuwait",
+        body: "My favorite person on Fiverr 🙏🙏🙏I took 2 recipes for my sick dogs and did tests after the diet everything is more than perfect 👍"
+    },
+    {
+        img: "https://randomuser.me/api/portraits/men/6.jpg",
+        name: "douaac",
+        title: "🇲🇦 Morocco",
+        body: "Awesome Work and Great Communication. The seller is very patient and understands the needs."
+    },
+    {
+        img: "https://randomuser.me/api/portraits/men/7.jpg",
+        name: "randomjuststuff",
+        title: "🇩🇪 Germany",
+        body: "Fast and very good Service Provider, Blog writer, ghost writer, love it, everytime again 👍"
+    },
+    {
+        img: "https://randomuser.me/api/portraits/men/8.jpg",
+        name: "hassanosman1",
+        title: "🇹🇷 Turkey",
+        body: "Glad to work with vetsoft. Professional freelance, provide me the exact file as I want. I will love to work with him again. I will recommend him. 100% recommended."
+    },
+    {
+        img: "https://randomuser.me/api/portraits/men/9.jpg",
+        name: "turklish21",
+        title: "🇮🇳 India",
+        body: "Thank you so much Vetsoft for making it so simple. The most important thing is you are very punctual and deliver it on time. I will highly recommend Vetsoft for translational work."
+    },
+    {
+        img: "  ",
+        name: "ggoapps",
+        title: "🇺🇸 United States",
+        body: "Good service, and Vetsoft was helpful in answering all of my questions, provided what we needed for a homemade dog food recipe. Thanks Again!"
     },
 ];
 
