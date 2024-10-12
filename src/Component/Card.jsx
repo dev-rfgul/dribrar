@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { faPaw, faMagnifyingGlass, faBook, faPen, faGlobe } from '@fortawesome/free-solid-svg-icons';
+
 
 const Card = ({ image, title,  btn1Url, btn2Url, btnText, btn2Text, paragraph }) => {
     return (
@@ -13,9 +15,9 @@ const Card = ({ image, title,  btn1Url, btn2Url, btnText, btn2Text, paragraph })
                 />
             </div>
             {/* Card Content */}
-            <div className="px-6 py-4">
+            <div className="px-6 py-4 flex flex-col  items-center">
                 <div className="font-bold text-2xl mb-2 text-gray-900">{title}</div>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2  text-center">
                     <p>{paragraph}</p>
                 </div>
             </div>
