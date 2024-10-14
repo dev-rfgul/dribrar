@@ -31,6 +31,11 @@ const Page = () => {
                                     </ScrollLink>
                                 </li>
                                 <li>
+                                    <ScrollLink to="skills" smooth={true} duration={500} className="hover:text-blue-600 transition-colors cursor-pointer">
+                                        Skills
+                                    </ScrollLink>
+                                </li>
+                                <li>
                                     <ScrollLink to="testimonials" smooth={true} duration={500} className="hover:text-blue-600 transition-colors cursor-pointer">
                                         Testimonials
                                     </ScrollLink>
@@ -74,6 +79,11 @@ const Page = () => {
                             <li>
                                 <ScrollLink to="about" smooth={true} duration={500} className="block text-lg hover:text-blue-600 transition-colors cursor-pointer">
                                     About
+                                </ScrollLink>
+                            </li>
+                            <li>
+                                <ScrollLink to="skills" smooth={true} duration={500} className="block text-lg hover:text-blue-600 transition-colors cursor-pointer">
+                                    Skills
                                 </ScrollLink>
                             </li>
                             <li>

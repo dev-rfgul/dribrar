@@ -32,7 +32,7 @@ const skills = [
 
 const SkillsSection = () => {
     return (
-        <section className="py-16 bg-gray-100">
+        <section id='skills' className="py-16 bg-gray-100">
             <div className="container mx-auto px-4">
                 <Heading subHeading={'Skills I have'} heading={'Skills'}/>
                 <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
