@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaw, faMagnifyingGlass, faBook, faPen, faGlobe } from '@fortawesome/free-solid-svg-icons';
-
+import Heading from './Heading';
 const skills = [
     {
         title: 'Animal Feed Formulation',
@@ -34,7 +34,7 @@ const SkillsSection = () => {
     return (
         <section className="py-16 bg-gray-100">
             <div className="container mx-auto px-4">
-                <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">My Skills</h2>
+                <Heading subHeading={'Skills I have'} heading={'Skills'}/>
                 <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
                     {skills.map((skill, index) => (
                         <div
@@ -45,11 +45,12 @@ const SkillsSection = () => {
                                 <FontAwesomeIcon icon={skill.icon} />
                             </div>
                             <div className='flex justify-center items-center flex-col'>
-
                                 <h3 className="text-xl font-semibold text-gray-700 mb-4">{skill.title}</h3>
                                 <p className="text-gray-600 mb-6 text-center">{skill.description}</p>
                                 <button className="py-2 px-6 border border-black rounded-lg text-black bg-white hover:bg-gray-900 hover:text-white transition-transform transform hover:scale-105">
-                                    Contact
+                                    <a href="">
+                                        Contact Me
+                                    </a>
                                 </button>
                             </div>
                         </div>
