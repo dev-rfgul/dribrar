@@ -38,7 +38,7 @@ const Services = () => {
 
     return (
         <div id='projects' className="p-4">
-            <Heading heading={"Services"} subHeading={"services I offer "} />
+            <Heading heading={"Services"} subHeading={"Services I offer "} />
             <div className="flex flex-wrap justify-center gap-6">
                 {serviceData.map((service, index) => (
                     <Card

@@ -33,7 +33,7 @@ const Projects = () => {
 
     return (
         <div id='projects' className="p-4">
-            <Heading heading={"Projects"} subHeading={"projects I made "} />
+            <Heading heading={"Projects"} subHeading={"Projects I had done "} />
             <div className="flex flex-wrap justify-center gap-6">
                 {projectData.map((project, index) => (
                     <Card
